@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <!-- 包名，必须唯一，小写字母开头，可以包含小写字母、下划线、数字，但不得有连续两个下划线 -->
+  <name>pkg_cpp</name>
+  <!-- 版本号 -->
+  <version>0.0.0</version>
+  <!-- 包描述 -->
+  <description>TODO: Package description</description>
+  <!-- 维护者邮箱、姓名 -->
+  <maintainer email="hzk@todo.todo">hzk</maintainer>
+  <!-- 许可证声明 -->
+  <license>TODO: License declaration</license>
+
+  <!-- 依赖关系 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 测试依赖 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- 导出信息 -->
+  <export>
+    <!-- 构建类型，指示构建系统如何构建此包 -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
