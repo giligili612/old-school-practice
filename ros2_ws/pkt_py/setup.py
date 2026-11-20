@@ -34,7 +34,8 @@ setup(
     entry_points={
         'console_scripts': [
             # 如果有命令行工具，在此处添加条目
-            # 比如： my_command = learning_pkg_py.my_module:main_func
+            # my_command = package_name.my_module:main_func
+            'node_helloworld = pkt_py.node_hello_world:main',
         ],
     },
 )
